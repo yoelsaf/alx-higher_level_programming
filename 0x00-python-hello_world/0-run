@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-print("run shell")
+print $PYFILE
