@@ -7,11 +7,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
-<<<<<<< HEAD
  *
-=======
- * for Holberton project
->>>>>>> 2ec5e458660d8b769d856d9ee079877bc6635f13
  */
 typedef struct listint_s
 {
@@ -25,8 +21,4 @@ void free_listint(listint_t *head);
 
 listint_t *insert_node(listint_t **head, int number);
 
-<<<<<<< HEAD
 #endif /* LISTS_H */
-=======
-#endif /* LISTS_H */
->>>>>>> 2ec5e458660d8b769d856d9ee079877bc6635f13
