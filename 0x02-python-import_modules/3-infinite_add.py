@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import sys
-if __name__ == "__main__":
-    n = len(sys.argv)
-    sum = 0
-    for i in range(1, n):
-        sum += int(sys.argv[i])
-    print(sum)
+from sys import argv
+if __name__ == '__main__':
+    res = 0
+    cnt = 1
+
+    while cnt < len(argv):
+        res += int(argv[cnt])
+        cnt += 1
+    print(res)
