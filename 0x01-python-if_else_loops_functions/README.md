@@ -1,13 +1,21 @@
-0x01. Python - if/else, loops, functions ->
+0x01. Python - if/else, loops, functions
+Python
 
-0. Positive anything is better than negative nothing -> This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable number is positive or negative.
-
-You can find the source code here
-The variable number will store a different value every time you will run this program
-You don’t have to understand what import, random. randint do. Please do not touch this code
-The output of the program should be:
-The number, followed by
-if the number is greater than 0: is positive
-if the number is 0: is zero
-if the number is less than 0: is negative
-followed by a new line
+Tasks
+Positive anything is better than negative nothing
+The last digit
+I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+When I was having that alphabet soup, I never thought that it would pay off
+Hexadecimal printing
+00...99
+Inventing is a combination of brains and materials. The more brains you use, the less material you need
+islower
+To uppercase
+There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+a + b
+a ^ b
+Fizz Buzz
+Insert in sorted linked list
+Smile in the mirror
+Remove at position
+ByteCode -> Python #2
