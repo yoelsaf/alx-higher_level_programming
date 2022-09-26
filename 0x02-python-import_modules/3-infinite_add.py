@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-from sys import argv
-if __name__ == '__main__':
-    res = 0
-    cnt = 1
+if __name__ == "__main__":
+    from sys import argv
 
-    while cnt < len(argv):
-        res += int(argv[cnt])
-        cnt += 1
-    print(res)
+num1 = 0
+length = len(argv)
+for i in range(1, length):
+    num1 += int(argv[i])
+print('{}'.format(num1))
