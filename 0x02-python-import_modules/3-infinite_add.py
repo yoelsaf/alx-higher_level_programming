@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    from sys import argv
-    add = 0
-    for s in argv[1:]:
-        add += int(s)
-    print("{:d}".format(add))
+from sys import argv
+if __name__ == '__main__':
+    res = 0
+    cnt = 1
+
+    while cnt < len(argv):
+        res += int(argv[cnt])
+        cnt += 1
+    print(res)
