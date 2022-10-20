@@ -16,7 +16,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
 
     count = 0
-    while count < len(text) and text[count] == " ":
+    while count < len(text) and text[count] == ' ':
         count = count + 1
 
     while count < len(text):
@@ -25,7 +25,7 @@ def text_indentation(text):
             if text[count] in ".?:":
                 print("\n")
             count = count + 1
-            while count < len(text) and text[count] == " ":
+            while count < len(text) and text[count] == ' ':
                 count = count + 1
             continue
         count = count + 1
