@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 '''  function that reads n lines of a text file (UTF8) and prints it to stdout
 '''
